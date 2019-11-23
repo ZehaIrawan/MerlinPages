@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  border: 1px solid tomato;
+  width: 20%;
+}
+
+.preview {
+  border: 1px solid tomato;
+  position: relative;
+  left: 25vw;
+  height: 100vh;
+  width: 500px;
+}
