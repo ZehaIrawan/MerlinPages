@@ -14,7 +14,7 @@
   width: 20%;
 }
 
-.preview {
+#preview {
   border: 1px solid tomato;
   position: relative;
   left: 25vw;
