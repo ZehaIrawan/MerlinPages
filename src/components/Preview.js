@@ -1,8 +1,5 @@
 import React from 'react';
 
 export const Preview = ({ data }) => {
-
-  return <div className="preview">{data.map(entry =>
-    entry
-  )}</div>;
+  return <div id="preview">{data.map(entry => entry)}</div>;
 };
